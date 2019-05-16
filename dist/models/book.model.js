@@ -20,6 +20,8 @@ class Book {
                 category: { type: String, maxlength: 24 },
                 condition: { type: String, maxlength: 24 },
                 cover: { type: String, maxlength: 1000 },
+                contactemail: { type: String, maxlength: 24 },
+                phone: { type: String, maxlength: 24 },
                 created_date: { type: new Date() },
                 user_id: {
                     type: Number,

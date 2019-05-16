@@ -13,7 +13,7 @@ export class Book {
       category: {type: String, maxlength:24},
       condition: {type: String, maxlength:24},
       cover: { type: String, maxlength: 1000 },
-      contacemail: {type: String, maxlength:24},
+      contactemail: {type: String, maxlength:24},
       phone: {type: String, maxlength:24},
       created_date: {type: new Date()},
       
